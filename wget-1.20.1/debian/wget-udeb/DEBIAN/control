@@ -1,0 +1,12 @@
+Package: wget-udeb
+Source: wget
+Version: 1.20.1-1
+Architecture: amd64
+Maintainer: Noël Köthe <noel@debian.org>
+Installed-Size: 383
+Depends: libc6-udeb (>= 2.28), libcrypto1.1-udeb (>= 1.1.1a), libpcre2-8-0-udeb (>= 10.32), libssl1.1-udeb (>= 1.1.1a), libuuid1-udeb (>= 2.31), zlib1g-udeb (>= 1:1.2.3.3.dfsg-1)
+Section: debian-installer
+Priority: optional
+Description: retrieves files from the web
+ This package provides wget.gnu binary as alternative to the limited
+ implementation in busybox (see for example ssl support).

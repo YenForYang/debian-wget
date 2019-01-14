@@ -1,0 +1,12 @@
+Package: wget-dbgsym
+Source: wget
+Version: 1.20.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Noël Köthe <noel@debian.org>
+Installed-Size: 828
+Depends: wget (= 1.20.1-1)
+Section: debug
+Priority: optional
+Description: debug symbols for wget
+Build-Ids: eaf6b6c700a9d4b5c342a871157600874449a4cd

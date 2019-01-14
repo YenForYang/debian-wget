@@ -1,0 +1,14 @@
+asnprintf.o: ../../lib/asnprintf.c /usr/include/stdc-predef.h ../src/config.h \
+ ../../lib/vasnprintf.h \
+ /opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdarg.h \
+ /opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../src/config.h:
+
+../../lib/vasnprintf.h:
+
+/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdarg.h:
+
+/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stddef.h:

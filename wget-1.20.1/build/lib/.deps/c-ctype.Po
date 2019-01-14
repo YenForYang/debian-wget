@@ -1,0 +1,11 @@
+c-ctype.o: ../../lib/c-ctype.c /usr/include/stdc-predef.h ../src/config.h \
+ ../../lib/c-ctype.h \
+ /opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdbool.h
+
+/usr/include/stdc-predef.h:
+
+../src/config.h:
+
+../../lib/c-ctype.h:
+
+/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdbool.h:

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Thu, 27 Dec 2018 18:53:18 +0100
+Source: wget
+Binary: wget wget-udeb
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.20.1-1
+Distribution: unstable
+Urgency: high
+Maintainer: Noël Köthe <noel@debian.org>
+Changed-By: Noël Köthe <noel@debian.org>
+Description:
+ wget       - retrieves files from the web
+ wget-udeb  - retrieves files from the web (udeb)
+Changes:
+ wget (1.20.1-1) unstable; urgency=high
+ .
+   * new upstream release 2018-12-26
+     fixes CVE-2018-20483 set_file_metadata in xattr.c in GNU Wget before 1.20.1
+   * debian/control: updated Standard-Version to 4.30, no changes needed
+Checksums-Sha1:
+ 1b4c558f5d469a0b5fd6c69e662ca5a047e3a039 797932 wget-dbgsym_1.20.1-1_amd64.deb
+ ffdecd4fdcbc1bf35a2139ae75a1460c07ab90ad 151508 wget-udeb_1.20.1-1_amd64.udeb
+ 1d587e527b19306a9640020c2712ccbe819a3d8d 6800 wget_1.20.1-1_amd64.buildinfo
+ 1d76cbf8d82857455b5a576ca31e200882ae044d 1162688 wget_1.20.1-1_amd64.deb
+Checksums-Sha256:
+ 53b2f59ca52987112c49cb8175bb9e05841ec60bd24c43720652cd6c57e3a0f4 797932 wget-dbgsym_1.20.1-1_amd64.deb
+ e6a778d1f171e4ccbec0d36488813bfb63f06c30954d1eb6cb4357f77ed9b2f3 151508 wget-udeb_1.20.1-1_amd64.udeb
+ dd51ce7e28bb9c64175bb6bacbe8a3192b347418ddcc6ed3b466fb3b88916a79 6800 wget_1.20.1-1_amd64.buildinfo
+ 070cda158d26fb3860b2acb9662f8cd0c8dde3cc58a4817c36de0f973f34c577 1162688 wget_1.20.1-1_amd64.deb
+Files:
+ 59dfe3d0589d38d70f52a39f30e58100 797932 debug optional wget-dbgsym_1.20.1-1_amd64.deb
+ f5b0b0a43af59bfdb45b0c1467390db9 151508 debian-installer optional wget-udeb_1.20.1-1_amd64.udeb
+ 36ff6177f1d5507a660c94be43954207 6800 web standard wget_1.20.1-1_amd64.buildinfo
+ 664b3aec15859c0cea16aae5c1a57afd 1162688 web standard wget_1.20.1-1_amd64.deb
